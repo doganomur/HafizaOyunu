@@ -63,10 +63,10 @@ class GameScreen(Screen):
         super().__init__(**kwargs)
 
         self.sesler = {
-            "mavi": SoundLoader.load("/mavi.wav"),
-            "sari": SoundLoader.load("/sari.wav"),
-            "yesil": SoundLoader.load("/yesil.wav"),
-            "kirmizi": SoundLoader.load("/kirmizi.wav")
+            "mavi": SoundLoader.load("sound/mavi.wav"),
+            "sari": SoundLoader.load("sound/sari.wav"),
+            "yesil": SoundLoader.load("sound/yesil.wav"),
+            "kirmizi": SoundLoader.load("sound/kirmizi.wav")
         }
 
         self.sequence = []
